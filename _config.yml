@@ -6,10 +6,10 @@
 name: Santiago García
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: A passionate web developer and a proud Laravel artisan 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars1.githubusercontent.com/u/7565417?v=3&s=460
+avatar: https://github.com/santigarcor.png
 
 #
 # Flags below are optional
@@ -18,7 +18,7 @@ avatar: https://avatars1.githubusercontent.com/u/7565417?v=3&s=460
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: santigarcor@gmail.com
   facebook:
   flickr:
   github: santigarcor
@@ -47,7 +47,7 @@ url: http://santigarcor.me
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/santigarcor.github.io"
+baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!
