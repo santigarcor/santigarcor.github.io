@@ -223,7 +223,7 @@ nav {
     font-size: 16px;
   }
 
-  a {
+  a, ul {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
@@ -233,6 +233,19 @@ nav {
     @include mobile {
       margin: 0 10px;
       color: $blue;
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: inline-flex;
+    margin: 0px;
+    padding-left: 0px;
+    li:first-child a {
+      margin-left: 0px;
+    }
+    .en:lang(en), .es:lang(es){
+      font-weight: bold;
     }
   }
 }

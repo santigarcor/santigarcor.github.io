@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang }}">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>
+      {% if page.title %}
+        {{ page.title | escape }}
+      {% else %}
+        {{ site.title[page.lang] | escape }}
+      {% endif %}
+    </title>
 
     {% include meta.html %}
 
@@ -10,7 +16,7 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description[page.lang] }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
@@ -19,16 +25,33 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
+        
+          <a href="{{ site.baseurl }}/{% if page.lang == 'es' %}inicio{% endif %}" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/{% if page.lang == 'es' %}inicio{% endif %}">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description[page.lang] }}</p>
           </div>
 
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/{{ site.menu.about-link[page.lang] }}">{{ site.menu.about[page.lang] }}</a>
+            <span style="margin:0px 6px;">|</span>
+            <ul>
+              {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+              {% for post in posts %}
+                <li>
+                  <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+                </li>
+              {% endfor %}
+
+              {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+              {% for page in pages %}
+                <li>
+                  <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+                </li>
+              {% endfor %}
+              </ul>
           </nav>
         </header>
       </div>

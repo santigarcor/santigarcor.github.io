@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Sobre Mí
+permalink: /sobre-mi/
 ref: about
-lang: en
+lang: es
 ---
 
-Some information about you!
+sonre mi
 
 ### More Information
 
