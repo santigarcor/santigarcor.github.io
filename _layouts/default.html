@@ -36,6 +36,7 @@
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/{{ site.menu.about-link[page.lang] }}">{{ site.menu.about[page.lang] }}</a>
+            <a href="{{ site.baseurl }}/{{ site.menu.newsletter-link[page.lang] }}">{{ site.menu.newsletter[page.lang] }}</a>
             <span style="margin:0px 6px;">|</span>
             <ul>
               {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}

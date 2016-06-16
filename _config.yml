@@ -7,8 +7,8 @@ name: Santiago García
 
 # Short bio or description (displayed in the header)
 description:
-  es: Un desarrollador web apasionado y Laravel Artisan
-  en: A passionate web developer and a proud Laravel artisan
+  es: 
+  en: 
 index:
   es: inicio.html
   en:
@@ -22,6 +22,12 @@ menu:
   about-link:
     es: sobre-mi
     en: about
+  newsletter:
+    es: Boletín
+    en: Newsletter
+  newsletter-link:
+    es: boletin
+    en: newsletter
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://github.com/santigarcor.png
 
