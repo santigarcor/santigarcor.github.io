@@ -16,6 +16,9 @@ title:
   es: Santiago García
   en: Santiago García
 menu:
+  blog-link:
+    es: inicio
+    en: 
   about:
     es: Sobre Mí
     en: About
@@ -38,7 +41,7 @@ avatar: https://github.com/santigarcor.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: santigarcor@gmail.com
+  email:
   facebook:
   flickr:
   github: santigarcor

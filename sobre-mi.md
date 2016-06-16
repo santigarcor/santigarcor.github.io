@@ -6,12 +6,13 @@ ref: about
 lang: es
 ---
 
-sonre mi
+Soy un estudiante de 21 _(casi 22)_ años. Actualmente estoy terminando mi carrera de Ingeniería de Sistemas y Computación.
 
-### More Information
+He estado haciendo desarrollo web por casi 3.3 años _(siendo muy exacto)_.
 
-A place to include any other types of information that you'd like to include about yourself.
+### Otras cosas
+Puedes ver en que estoy trabajando en mi perfil de [GitHub](https://github.com/santigarcor), y puedes seguirme en [Twitter](https://twitter.com/santigarcor).
 
-### Contact me
+<!-- ### Contáctame
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:email@domain.com) -->

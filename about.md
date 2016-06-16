@@ -6,12 +6,13 @@ ref: about
 lang: en
 ---
 
-Some information about you!
+I'm a 21 _(almost 22)_ years old student. Currently i'm finishing my Systems Engineering and Computing career.
 
-### More Information
+I've been doing web development for almost 3.3 years _(being very exact)_.
 
-A place to include any other types of information that you'd like to include about yourself.
+### Other stuff
+ You can watch what i'm working on in my [GitHub](https://github.com/santigarcor) profile, and you can follow me on [Twitter](https://twitter.com/santigarcor).
 
-### Contact me
+<!-- ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:email@domain.com) -->
