@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include date.html date=page.date %}
 
 <article class="post">
   <h1>{{ page.title }}</h1>
@@ -10,7 +11,12 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    {{ site.escrito-en[page.lang] }}
+    {% if page.lang == 'es' %}
+        {{ day }} de {{ month }} de {{ year }}
+    {% else %}
+        {{ month }} {{ day }}{{ sup }} of {{ year }}
+    {% endif %}
   </div>
 
   {% include disqus.html %}
