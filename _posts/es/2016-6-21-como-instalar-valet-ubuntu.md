@@ -14,7 +14,7 @@ y leí la primera frase de la instroducción de _Valet_:
 
 Así que en ese momento decidí cerrar la pestaña del navegador e ignorar que _Valet_ existía _(Soy un usuario de Ubunutu)_.
 
-Alrededor de un mes despues de la salida de _Valet_, encontré que uno de los forks que tenia valet 
+Alrededor de un mes despues de la salida de _Valet_, encontré que uno de los forks que tenia, 
 estaba hecho especificamente para Ubuntu, así que decidí instalarlo y todo funcionó a la perfección.
 
 Ahora, luego de todo lo anterior, acá viene la guía.
