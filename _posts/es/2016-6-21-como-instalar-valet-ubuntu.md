@@ -41,5 +41,32 @@ Luego de que termine el proceso de instalación en el composer, corremos el sigu
 valet install
 ```
 
+### Actualización
+Para actualizar _Valet_ simplemente basta con ejecutar:
+
+```bash
+composer global update
+```
+
 ### Uso
-Luego de tener instalado _Valet_ en nuestro sistema
+
+- `valet park`
+
+    Al ejecutar ese comando dentro de la carpeta que contenga nuestros proyectos, desde nuestro navegador podremos acceder a `http://nombre-proyecto.dev`.
+
+- `valet link`
+
+    Este comando es útil para cuando solo se necesite servir un solo proyecto y no una carpeta de proyectos.
+
+- `valet status`
+
+    Muestra el estado de los servicios usados por _Valet_.
+
+- `valet share`
+
+    Permite compartir un proyecto en internet. Este comando debe de ser ejecutado por proyecto.
+
+    Para dejar de compartir un proyecto hay que presionar `Ctrl + C` en la consola.
+
+Para más información, pueden visitar la documentación oficial de Laravel [Valet](https://laravel.com/docs/valet) o dirigirse a la página del _[fork](https://github.com/cpriego/valet-ubuntu)_ para Ubuntu.
+
