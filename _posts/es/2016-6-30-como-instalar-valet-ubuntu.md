@@ -8,7 +8,7 @@ lang: es
 Cuando Tailor Otwell lanzó _Valet_ con este [video](https://www.youtube.com/watch?v=H3Z4Gk9Wc0s), 
 quedé sorprendido y antojado de tener esta utilidad y simplemente relajarme al momento de hacer 
 desarrollo web. El problema llegó cuando entré a la documentación de _[Valet](https://laravel.com/docs/valet)_ 
-y leí la primera frase de la instroducción de _Valet_:
+y leí la primera frase de la introducción de _Valet_:
 
 > Valet is a Laravel development environment for Mac minimalists...
 
