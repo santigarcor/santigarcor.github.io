@@ -27,6 +27,10 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:title" content="{{ page.title }}" />
+    {% else %}
+    <meta property="og:title" content="{{ site.title[page.lang] | escape }}" />
+    <meta property="twitter:title" content="{{ site.title[page.lang] | escape }}" />
+    <meta name="twitter:title" content="{{ site.title[page.lang] | escape }}" />
     {% endif %}
 
     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
