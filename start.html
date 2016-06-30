@@ -1,7 +1,7 @@
 ---
 layout: default
 ref: index
-lang: es
+lang: en
 ---
 
 <div class="posts">
@@ -12,12 +12,12 @@ lang: es
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+      
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer Más</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>

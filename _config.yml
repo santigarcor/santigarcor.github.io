@@ -10,8 +10,8 @@ description:
   es: 
   en: 
 index:
-  es: inicio.html
-  en:
+  es:
+  en: start.html
 title:
   es: Santiago García
   en: Santiago García
@@ -20,8 +20,8 @@ escrito-en:
   en: Written on
 menu:
   blog-link:
-    es: inicio
-    en: 
+    es: 
+    en: start
   about:
     es: Sobre Mí
     en: About
