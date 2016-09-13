@@ -1,0 +1,31 @@
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://santigarcor.github.io/
+baseurl: /
+title: Santiago García
+author: Santiago García
+description: Personal page and resume
+avatar: profile.png
+email: yourname@email.com
+github: santigarcor # username
+twitter: santigarcor
+linkedin: santigarcor
+#stackoverflow: santigarcor   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+#disqus: username
+google_analytics: UA-69391421-1
+
+
+# needed for travis-ci build
+exclude: [vendor]
