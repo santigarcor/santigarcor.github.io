@@ -11,15 +11,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
     crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
-    <link rel="stylesheet" href="{{ site.baseurl }}static/css/resume/base.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}static/css/resume/skeleton.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}static/css/resume/layout.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400bold" />
+    <link rel="stylesheet" href="{{ site.baseurl }}static/css/resume.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
     <link rel="shortcut icon" href="{{ site.baseurl }}static/img/favicon.ico">
 </head>
@@ -29,24 +23,19 @@
     <header class="three columns">
         <img src="{{ site.baseurl }}static/img/profile.png" class="me">
         <h1>{{ site.name }}</h1>
-        <p>
-            <a href="{{ site.tel_full }}">{{ site.tel }}</a>
-        </p>
         <address>
-            <a href="{{ site.google_maps }}">
-                {{ site.address }}<br/>
-                {{ site.postcode }}<br/>
-                {{ site.city }}<br/>
-                {{ site.country }}
+            <a href="{{ site.google_maps }}" target="_blank">
+                {{ site.city }}, {{ site.country }}
             </a>
         </address>
         <p>
-            <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
+            <a href="{{ site.url }}" target="_blank">{{ site.website }}</a><br/>
         </p>
         <p>
             <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
-            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> GitHub</a> |
+            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a> |
+            <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i> Linkedin</a>
         </p>
     </header>
     <div class="thirteen columns clearfix">
