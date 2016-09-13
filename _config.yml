@@ -3,7 +3,7 @@ highlighter: pygments
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-permalink: /:title.html
+permalink: /:title
 paginate: 5
 gems: [jekyll-paginate]
 port: 3000
@@ -11,7 +11,7 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://santigarcor.github.io/
+url: http://santigarcor.me
 baseurl: /
 title: Santiago García
 author: Santiago García
@@ -23,7 +23,7 @@ twitter: santigarcor
 linkedin: santigarcor
 #stackoverflow: santigarcor   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
-#disqus: username
+disqus: santigarcorme
 google_analytics: UA-69391421-1
 
 
