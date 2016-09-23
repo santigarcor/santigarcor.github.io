@@ -30,8 +30,30 @@ country: Colombia
 #stackoverflow: santigarcor   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
 disqus: santigarcorme
-google_analytics: UA-69391421-1
+google_analytics: UA-84408499-2
 
 
 # needed for travis-ci build
 exclude: [vendor]
+
+t:
+  en:
+    blog:
+      name: 'BLOG'
+      url: 'blog-en'
+    projects:
+      name: 'PROJECTS'
+      url: 'projects'
+    resume:
+      name: 'RESUME'
+      url: 'resume'
+  es:
+    blog:
+      name: 'BLOG'
+      url: 'blog-es'
+    projects:
+      name: 'PROYECTOS'
+      url: 'proyectos'
+    resume:
+      name: 'CURRÍCULUM'
+      url: 'cv'
