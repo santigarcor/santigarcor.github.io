@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta name="author" content="{{ site.author }}" />
+    <meta name="description" content="{{ site.description }}">
+    <link rel="favicon" href="{{ site.baseurl }}static/favicon.ico">
+
+    {% if page.title %}
+      <title>{{ page.title }}</title>
+    {% else %}
+      <title>{{ site.title }}</title>
+    {% endif %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/libs.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/syntax.css" />
+    <style type="text/css">
+      .en:lang(en), .es:lang(es){
+        font-weight: bold;
+      }
+    </style>
+
+    <!-- Google Analytics -->
+    {% include analytics.html %}
+  </head>
+  <!-- Main Body-->
+  <body>
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+      <!-- Navbar header -->
+      {% include header.html %}
+
+      {{ content }}
+
+    </div>
+    <!-- Footer -->
+    {% include footer.html %}
+    <script src="{{ site.baseurl }}static/js/all.js"></script>
+  </body>
+</html>

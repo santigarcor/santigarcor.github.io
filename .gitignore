@@ -1,10 +1,13 @@
-_site
+# OS X
 .DS_Store
-.jekyll
+
+# Jekyll build
+/_site/
 .jekyll-metadata
-.bundle
-.sass-cache
-Gemfile
 Gemfile.lock
-node_modules
-package.json
+
+# webstorm
+.idea/
+
+# others
+*.swp

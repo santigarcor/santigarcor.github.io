@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Cómo instalar Laravel Valet en Ubuntu 16.04
-ref: como-instalar-valet
+tags:
+- Laravel
+- Valet
+- Ubuntu
 lang: es
+ref: valet-ubuntu
 ---
 
 Cuando Tailor Otwell lanzó _Valet_ con este [video](https://www.youtube.com/watch?v=H3Z4Gk9Wc0s), 
