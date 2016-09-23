@@ -13,6 +13,14 @@
     {% else %}
       <title>{{ site.title }}</title>
     {% endif %}
+
+    {% if page.lang == 'en' %}
+      {{ page.date | date: "%d/%m/%Y" }}
+    {% endif %}
+
+    {% if page.lang == 'es' %}
+      {{ page.date | date: "%Y-%m-%d" }}
+    {% endif %}
 	
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/libs.css" />
