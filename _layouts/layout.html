@@ -14,15 +14,6 @@
       <title>{{ site.title }}</title>
     {% endif %}
 
-    {% if page.lang == 'en' %}
-      {{ page.date | date: "%d/%m/%Y" }}
-    {% endif %}
-
-    {% if page.lang == 'es' %}
-      {{ page.date | date: "%Y-%m-%d" }}
-    {% endif %}
-	
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/libs.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/main.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
