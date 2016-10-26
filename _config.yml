@@ -41,6 +41,8 @@ t:
     projects:
       name: 'PROJECTS'
       url: 'projects'
+    home:
+      url: 'start'
     # resume:
     #   name: 'RESUME'
     #   url: 'resume'
@@ -51,6 +53,8 @@ t:
     projects:
       name: 'PROYECTOS'
       url: 'proyectos'
+    home:
+      url: ''
     # resume:
     #   name: 'CURRÍCULUM'
     #   url: 'cv'
