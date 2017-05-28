@@ -19,9 +19,9 @@ layout: null
   {% for page in site.pages %}
     {% unless page.ref == 'page-not-found' %}
       <url>
-        <loc>{{site.base}}{{ page.url }}</loc>{% assign versions=site.pages | where:"ref",page.ref %}
+        <loc>{{site.url}}{{ page.url }}</loc>{% assign versions=site.pages | where:"ref",page.ref %}
         {% for version in versions %}
-          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
+          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{ version.url }}" />
         {% endfor %}
         <changefreq>weekly</changefreq>
       </url>
