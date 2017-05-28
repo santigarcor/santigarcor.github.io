@@ -35,21 +35,21 @@ exclude: [vendor]
 
 t:
   en:
-    blog:
-      name: 'BLOG'
-      url: 'blog-en'
+    # blog:
+    #   name: 'BLOG'
+    #   url: 'blog-en'
     projects:
       name: 'PROJECTS'
       url: 'projects'
     home:
-      url: 'start'
+      url: 'home'
     # resume:
     #   name: 'RESUME'
     #   url: 'resume'
   es:
-    blog:
-      name: 'BLOG'
-      url: 'blog-es'
+    # blog:
+    #   name: 'BLOG'
+    #   url: 'blog-es'
     projects:
       name: 'PROYECTOS'
       url: 'proyectos'
