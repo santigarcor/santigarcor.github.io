@@ -25,7 +25,7 @@ google_maps: 'https://www.google.com.co/maps/place/Medell%C3%ADn,+Antioquia/@6.2
 city: Medellín
 country: Colombia
 #stackoverflow: santigarcor   #e.g: users/2735833/proton1h1
-#Comment out if you don't want disqus 
+#Comment out if you don't want disqus
 disqus: santigarcorme
 google_analytics: UA-84408499-2
 
@@ -35,26 +35,14 @@ exclude: [vendor]
 
 t:
   en:
-    # blog:
-    #   name: 'BLOG'
-    #   url: 'blog-en'
     projects:
       name: 'PROJECTS'
       url: 'projects'
     home:
       url: 'home'
-    # resume:
-    #   name: 'RESUME'
-    #   url: 'resume'
   es:
-    # blog:
-    #   name: 'BLOG'
-    #   url: 'blog-es'
     projects:
       name: 'PROYECTOS'
       url: 'proyectos'
     home:
       url: ''
-    # resume:
-    #   name: 'CURRÍCULUM'
-    #   url: 'cv'
