@@ -41,8 +41,8 @@ function IndexPage() {
         <div className="flex justify-between mt-8 text-4xl text-purple mx-auto max-w-xs">
           <a href="https://github.com/santigarcor"><GithubIcon/></a>
           <a href="https://twitter.com/santigarcor"><TwitterIcon/></a>
-          <a href="https://linkedin.com/santigarcor"><LinkedInIcon/></a>
-          <a href="https://twitter.com/santigarcor"><MailIcon/></a>
+          <a href="https://www.linkedin.com/in/santigarcor"><LinkedInIcon/></a>
+          <a href="mailto:contacto@santigarcor.me"><MailIcon/></a>
         </div>
       </section>
     </Layout>
