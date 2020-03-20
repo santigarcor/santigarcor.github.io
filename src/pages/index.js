@@ -10,6 +10,13 @@ import MailIcon  from "../components/Icons/MailIcon";
 
 import profilePicture from "../images/foto.jpg";
 
+const socialNetworks = [
+    { icon: (<GithubIcon/>), link: 'https://github.com/santigarcor'},
+    { icon: (<TwitterIcon/>), link: 'https://twitter.com/santigarcor'},
+    { icon: (<LinkedInIcon/>), link: 'https://www.linkedin.com/in/santigarcor'},
+    { icon: (<MailIcon/>), link: 'mailto:contacto@santigarcor.me'},
+  ];
+
 function IndexPage() {
   return (
     <Layout>
@@ -39,10 +46,7 @@ function IndexPage() {
         </p>
 
         <div className="flex justify-between mt-8 text-4xl text-purple mx-auto max-w-xs">
-          <a href="https://github.com/santigarcor"><GithubIcon/></a>
-          <a href="https://twitter.com/santigarcor"><TwitterIcon/></a>
-          <a href="https://www.linkedin.com/in/santigarcor"><LinkedInIcon/></a>
-          <a href="mailto:contacto@santigarcor.me"><MailIcon/></a>
+          {socialNetworks.map((item, i) => (<a key={i} href={item.link}>{item.icon}</a>))}
         </div>
       </section>
     </Layout>
