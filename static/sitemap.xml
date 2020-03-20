@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>http://santigarcor.me/</loc>
+  <priority>1.0</priority>
+  <changefreq>yearly</changefreq>
+  <lastmod>2020-03-19</lastmod>
+</url>
+<url>
+  <loc>http://santigarcor.me/projects</loc>
+  <priority>0.9</priority>
+  <changefreq>yearly</changefreq>
+  <lastmod>2020-03-19</lastmod>
+</url>
+</urlset>
