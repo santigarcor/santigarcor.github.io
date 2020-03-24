@@ -39,18 +39,18 @@ function ProjectsPage() {
             <a
               key={project.name}
               href={project.url}
-              className="relative mb-4 w-full h-48 sm:w-3/5 flex justify-start mx-auto bg-darkpurple border-lightWhite border-2 p-6 hover:border-purple"
+              className="relative mb-4 w-full h-auto sm:h-48 sm:w-3/5 flex justify-start mx-auto bg-darkpurple border-lightWhite border-2 p-6 hover:border-purple"
             >
               <img
                 className="block w-3/12 border-none antialiased mr-6"
                 src={project.imgUrl}
               />
-              <div className="block text-left">
+              <div className="block text-left w-9/12">
                 <h4 className="font-sans text-3xl font-bold">{project.name}</h4>
                 <div className="font-body text-lg">{project.description}</div>
-                <div className="flex justify-start font-body font-semibold text-xs mt-5">
+                <div className="flex flex-wrap justify-start font-body font-semibold text-xs mt-5">
                   {project.tags.map(tag => (
-                    <span key={tag} className="bg-dark py-1 px-2 mr-2">{tag}</span>)
+                    <span key={tag} className="bg-dark py-1 px-2 mr-2 mb-2">{tag}</span>)
                   )}
                 </div>
               </div>
