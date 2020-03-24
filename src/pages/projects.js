@@ -11,6 +11,13 @@ const projects = [
     tags: ['Laravel', 'PHP'],
     url: 'https://laratrust.santigarcor.me/',
   },
+  {
+    name: 'L-Systems',
+    description: 'The L-systems simulator I made for my college thesis',
+    imgUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Graftal7.png',
+    tags: ['React.js', 'Javascript', 'WebGL'],
+    url: 'http://lsystems.santigarcor.me/',
+  },
 ];
 
 function ProjectsPage() {
