@@ -37,6 +37,12 @@ module.exports = {
         purgeOnly: [`src/css/style.css`]
       }
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-84408499-2",
+      },
+    },
   ]
 };
