@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `santigarcor`,
+        short_name: `santigarcor`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
